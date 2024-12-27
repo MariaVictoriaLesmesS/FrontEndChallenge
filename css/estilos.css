@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tangerine:wght@400;700&display=swap');
+
+
+.body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    background-color: var(--azul-claro);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-size: 14px;
+    color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cabecera {
+    background-color: rgb(58, 63, 213);
+    height: 70px;
+    width: 100%;
+    padding: 15px;
+    align-items: baseline;
+}
+
+.link_interno{
+    color: rgb(13, 15, 73);
+    align-items: center;
+}
+
+.menu__itens{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#sobre-mi{
+    height: 100%;
+    padding: 150px;
+}
+
+
+
+.titulo {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: var(--fuente-tangerine);
+    font-size: 2.25rem;
+  }
+  
+  .foto_perfil {
+    margin-top: 20px; /* Ajusta el valor según sea necesario */
+  }
+  
+  .sobre_mi {
+    margin-top: 10px; /* Ajusta el valor según sea necesario */
+  }
